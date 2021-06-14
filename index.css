@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(51, 51, 51);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    box-shadow: 0 0 50px rgb(0, 255, 213);
+    margin-top: 75px;
+}
+.real{
+    font-size: 150px;
+    font-family: Barlow;
+    color: rgb(2, 255, 213);
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding: 10px 25px 10px 25px;
+}
+.status{
+    font-size: 120px;
+    font-family: Barlow;
+    color: rgb(0, 174, 255);
+    box-shadow: 0 0 40px rgb(0, 174, 255);
+    font-weight: bold;  
+    letter-spacing: 2px;
+    padding: 0px 25px 0px 25px;
+}
